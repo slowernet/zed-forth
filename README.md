@@ -21,7 +21,7 @@ Files with a `gforth` or `forth` shebang are also detected automatically.
 
 ## Installation
 
-Search for "Forth" in Zed's extension registry (Extensions panel), or install as a dev extension for local development.
+Not yet part of the Zed extension registry. [Install as a dev extension](https://zed.dev/docs/extensions/developing-extensions#developing-an-extension-locally) for now.
 
 ## Development
 
