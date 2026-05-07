@@ -1,0 +1,11 @@
+id = "forth"
+name = "Forth"
+description = "Forth language support."
+version = "0.0.1"
+schema_version = 1
+authors = ["Eliot Shepard <eshepard@slower.net>", "Claude Opus 4.6 (1M context) <noreply@anthropic.com>"]
+repository = "https://github.com/slowernet/zed-forth"
+
+[grammars.forth]
+repository = "https://github.com/AlexanderBrevig/tree-sitter-forth"
+commit = "360ef13f8c609ec6d2e80782af69958b84e36cd0"

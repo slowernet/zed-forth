@@ -1,0 +1,17 @@
+name = "Forth"
+grammar = "forth"
+path_suffixes = ["fth", "4th", "forth", "fs"]
+first_line_pattern = '^#!.*\b(gforth|forth)\b'
+line_comments = ["\\ "]
+block_comment = ["( ", " )"]
+autoclose_before = ";:.,=}])>"
+tab_size = 2
+increase_indent_pattern = '(?i)\b(IF|ELSE|DO|BEGIN|CASE|OF|WHILE)\s*$'
+decrease_indent_pattern = '(?i)^\s*(THEN|ELSE|LOOP|\+LOOP|UNTIL|REPEAT|ENDCASE|ENDOF|AGAIN)\b'
+
+brackets = [
+  { start = "(", end = ")", close = true, newline = false },
+  { start = "\"", end = "\"", close = true, newline = false, not_in = ["comment", "string"] },
+]
+
+collapsed_placeholder = "\\ ..."
