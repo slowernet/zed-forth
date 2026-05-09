@@ -5,7 +5,6 @@ A Forth language extension for the Zed editor providing syntax highlighting, ind
 ## Project Structure
 
 - `extension.toml` — Extension manifest (grammar refs, metadata)
-- `Cargo.toml` + `src/lib.rs` — Rust/WASM scaffold (no-op for now, ready for future LSP)
 - `languages/forth/` — Language configuration and tree-sitter queries
 
 ## Conventions
@@ -19,7 +18,5 @@ A Forth language extension for the Zed editor providing syntax highlighting, ind
 ## Development
 
 - Install as dev extension in Zed: Extensions > Install Dev Extension > select this directory
-- Rust must be installed via rustup (https://rustup.rs/), not homebrew, for WASM compilation
-- Build target: `wasm32-wasip1` (run `rustup target add wasm32-wasip1` if missing)
 - Test by opening `.fth` files in Zed after installing the dev extension
 - Check Zed logs for query errors: `zed --foreground`

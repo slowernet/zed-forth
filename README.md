@@ -25,13 +25,6 @@ Not yet part of the Zed extension registry. [Install as a dev extension](https:/
 
 ## Development
 
-Requires Rust via [rustup](https://rustup.rs/) (not Homebrew):
-
-```bash
-rustup target add wasm32-wasip1
-cargo build --target wasm32-wasip1
-```
-
 To test locally, open Zed and use Extensions > "Install Dev Extension", then select this directory. Open any `.fth` file to verify.
 
 ## Grammar
