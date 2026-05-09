@@ -20,3 +20,7 @@ A Forth language extension for the Zed editor providing syntax highlighting, ind
 - Install as dev extension in Zed: Extensions > Install Dev Extension > select this directory
 - Test by opening `.fth` files in Zed after installing the dev extension
 - Check Zed logs for query errors: `zed --foreground`
+
+## Workflow
+
+- Always show proposed changes and wait for user review before any git actions (commit, push, tag, etc.)
